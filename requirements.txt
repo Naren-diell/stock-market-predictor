@@ -1,5 +1,5 @@
-pandas
+yfinance
 numpy
 matplotlib
 scikit-learn
-yfinance
+tk
