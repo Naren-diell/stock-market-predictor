@@ -1,13 +1,14 @@
-# GUI Stock Market Predictor
+# Stock Market Predictor
 
-A Python-based GUI app that predicts future stock prices using historical data and machine learning (Linear Regression).
-
-Built with **Tkinter**, **yfinance**, and **scikit-learn**.
-
+A GUI-based stock price predictor using Linear Regression and Yahoo Finance data.
 
 #Features
+- Predicts future stock prices
+- Takes user input for symbol and days
+- Visualizes predictions using a graph
+- GUI built with Tkinter
 
-- GUI with user input fields (Tkinter)
-- Fetches real-time stock data using `yfinance`
-- Predicts stock prices using Linear Regression
-- Plots actual vs predicted prices using Matplotlib
+#Run the app
+
+pip install -r requirements.txt
+python main.py
