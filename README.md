@@ -1,15 +1,23 @@
-#  Stock Market Predictor
+#  Minimal Stock Market Predictor (Python)
 
-This project predicts future stock prices using machine learning models such as Linear Regression.
+A simple **stock price predictor** built with `pandas_datareader` and `scikit-learn`, designed to run directly in **Pydroid 3 (Android)** or on any desktop.
 
-##  Tech Stack
-- Python
-- yfinance
-- scikit-learn
-- matplotlib
+This project trains a `LinearRegression` model to predict the next day’s closing price of a stock using the past 5 days of historical closing prices.
 
-##  How to Run
+---
+
+##Features
+
+-  One single `.py` file — just copy & paste to run!
+- Works on Android (Pydroid 3) and desktop
+- Uses machine learning (`LinearRegression`) for prediction
+- Requires only basic Python packages
+
+---
+
+##  Requirements
+
+Install these packages before running:
+
 ```bash
-pip install -r requirements.txt
-python main.py
-```
+pip install pandas numpy scikit-learn pandas_datareader
